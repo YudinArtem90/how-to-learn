@@ -99,26 +99,32 @@ div {
 }
 
 .content{
-
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .description{
     display: flex;
-    width: 80%;
+    /* width: 80%; */
+	justify-content: center;
+	padding: 100px 0;
 }
 
 /* примешивание для позиционирования */
 .content__description{
     display: flex;
     position: relative;
-    left: 100px;
-    top: 100px
+    /* left: 100px;
+    top: 100px */
 }
 
 .two-columns{
     display: flex;
     /* align-self: center; */
     justify-content: space-between;
+    /* width: 80%; */
 }
 
 .two-columns__brief{
@@ -142,6 +148,7 @@ div {
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+    margin: 0 0;
 }
 
 .two-columns__paragraph:nth-of-type(2){
@@ -154,4 +161,85 @@ div {
 
 .two-columns__span-accent{
     display: flex;
+}
+
+.digits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 40px;
+}
+
+.section-title{
+    width: 60%;
+    line-height: 69px;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.digits__section-title{
+    display: flex;
+    /* flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center; */
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.digits__section-title_text-black{
+    color: black;
+}
+
+.section-subtitle{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.digits__section-subtitle{
+    margin-bottom: 60px;
+}
+
+.table{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    width: 1100px;
+}
+
+.cell{
+    width: 250px;
+}
+
+.table__cell{
+    margin-bottom: 60px;
+}
+
+.heading{
+    line-height: 1.15;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.cell__heading{
+    margin-bottom: 20px;
+}
+
+.text{
+    line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.text:nth-child(even){
+    margin-bottom: 20px;
+}
+
+.cell__text{
+
 }
