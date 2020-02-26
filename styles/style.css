@@ -99,10 +99,10 @@ div {
 }
 
 .content{
-    width: 80%;
-    display: flex;
+    /* width: 80%; */
+    /* display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: auto; */
 }
 
 .description{
@@ -177,17 +177,10 @@ div {
 	font-weight: bold;
 }
 
-.digits__section-title{
+.section-title-position{
     display: flex;
-    /* flex-direction: column-reverse;
-    flex-wrap: wrap;
-    align-content: center; */
     margin-bottom: 20px;
     justify-content: center;
-}
-
-.digits__section-title_text-black{
-    color: black;
 }
 
 .section-subtitle{
@@ -199,7 +192,7 @@ div {
 	font-weight: normal;
 }
 
-.digits__section-subtitle{
+.section-subtitle-margin-bottom{
     margin-bottom: 60px;
 }
 
@@ -212,12 +205,9 @@ div {
     width: 1100px;
 }
 
-.cell{
-    width: 250px;
-}
-
 .table__cell{
     margin-bottom: 60px;
+    width: 250px;
 }
 
 .heading{
@@ -226,7 +216,7 @@ div {
 	font-weight: bold;
 }
 
-.cell__heading{
+.table__heading{
     margin-bottom: 20px;
 }
 
@@ -240,6 +230,81 @@ div {
     margin-bottom: 20px;
 }
 
-.cell__text{
+.table__text{
 
+}
+
+/* feinman */
+
+.feinman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 100px;
+    background: no-repeat url(../images/feinman.png) #F2F2F2;
+    background-size: auto;
+    height: 637px;
+    background-size: 867px 637px;
+    position: relative;
+}
+
+.feinman__title{
+    display: flex;
+    width: 648px;
+    margin: 100px 0 0;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feinman__subtitle{
+    display: flex;
+    line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.feinman__link{
+    display: flex;
+    position: absolute;
+    right: 48px;
+    line-height: 51px;
+	font-size: 36px;
+    font-weight: normal;
+    top: 50%;
+    color: #000;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.kaufman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 40px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.table_theme__dark{
+    z-index: 2;
+}
+
+.section-title_theme_dark{
+    color: white;
+}
+
+.section-subtitle_theme_dark{
+    color: white;
+}
+
+.table__cell_theme_dark{
+    color: white;
+}
+
+.feinman__triangle{
+    position: absolute;
+    right: -210px;
 }
