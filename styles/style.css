@@ -27,17 +27,12 @@
 
 /* общие стили для лого */
 .logo{
-    /* height: 32px;
-    width: 183px; */
     z-index: 1;
 }
 
 .logo_place_header{
     height: 32px;
     width: 183px;
-}
-
-.header-logo{
     position: absolute;
     left: 64px;
     top: 30px;
@@ -109,6 +104,7 @@
     font-size: 18px; 
     font-weight: normal;
     color: #2F80ED;
+    margin-top: 0;
 }
 
 .two-columns__main-text{
@@ -226,6 +222,7 @@
     height: 790px;
     background-size: 867px 637px;
     position: relative;
+    background-position: left bottom;
 }
 
 .feinman__title{
