@@ -1,0 +1,10 @@
+@import url('./__two-columns/oakley__two-columns.css');
+
+.oakley{
+    background-color: #F2F2F2;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}

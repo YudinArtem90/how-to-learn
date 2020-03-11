@@ -1,0 +1,10 @@
+@import url('./__section-title/video__section-title.css');
+@import url('./__section-subtitle/video__section-subtitle.css');
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
