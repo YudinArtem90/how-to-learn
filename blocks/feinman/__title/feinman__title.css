@@ -1,6 +1,6 @@
 .feinman__title{
     display: flex;
-    width: 648px;
+    max-width: 648px;
     margin: 100px 0 70px;
     line-height: 1.15;
     font-size: 120px;
