@@ -1,0 +1,6 @@
+@import url('./__iframe/iframes__iframe.css');
+
+.iframes{
+    display: flex;
+    flex-direction: row;
+}

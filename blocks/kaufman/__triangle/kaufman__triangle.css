@@ -1,0 +1,10 @@
+.kaufman__triangle{
+    position: absolute;
+    right: -210px;
+    top: 0;
+    height: 877px;
+    width: 877px;
+    background: no-repeat url(../../../../images/triangle.svg);
+    background-size: 877px 877px;
+    animation: kaufman-triangle-rotate 20s linear infinite normal forwards;
+}

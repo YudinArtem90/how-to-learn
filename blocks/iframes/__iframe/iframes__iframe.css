@@ -1,0 +1,8 @@
+.iframes__iframe{
+    width: 515px;
+    height: 316px;
+}
+
+.iframes__iframe:nth-child(2n){
+    margin-left: 20px;
+}
