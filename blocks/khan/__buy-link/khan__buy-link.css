@@ -2,12 +2,7 @@
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;
-    position: absolute;
     margin-left: 20px;
     text-decoration: none;
-}
-
-.khan__buy-link:hover{
-    opacity: .4;
-    transition: 1s linear;
+    color: #2F80ED;
 }

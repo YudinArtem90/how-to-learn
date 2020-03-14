@@ -6,6 +6,7 @@
 @import url('./__quote-author-subline/khan__quote-author-subline.css');
 @import url('./__book-pic/khan__book-pic.css');
 @import url('./__buy-link/khan__buy-link.css');
+@import url('./__book-container/khan__book-container.css');
 
 .khan{
     display: flex;
